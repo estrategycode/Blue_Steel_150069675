@@ -5,13 +5,19 @@
   
   <div class="pos">
    
-  
- <div class="socialMediaMain">
-            <a href="http://www.facebook.com/" target="_blank"><img src="/CustomData/150001586/images/facebook.png" border="0" width="20" height="20"/></a>
-            <a href="http://twitter.com/" target="_blank"><img src="/CustomData/150001586/images/twitter.png" border="0" width="20" height="20" /></a>
-            <a href="http://www.youtube.com" target="_blank"><img src="/CustomData/150001586/images/youtube.png" border="0"  width="20" height="20"/></a>
-            <a href="http://www.linkedin.com" target="_blank"><img src="/CustomData/150001586/images/linkedin.png" border="0"  width="20" height="20"/></a>
-    </div>
+<link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
+  <div class="pos">
+  <div class="banner">
+<h1 class="agentName">Prescott And Associates</h1>
+<div class="line">&nbsp;</div>
+<h1 class="tagLine">Meeting Your Real Estate Needs</h1>
+  <span class="socialMedia">
+  <a href="#"><span class="socialIcon fb">F</span></a> 
+  <a href="#"><span class="socialIcon twitter">T</span></a> 
+  <a href="#"><span class="socialIcon linkedin">I</span></a> 
+  <a href="#"><span class="socialIcon youtube">X</span></a>
+  </span>
+</div>
        <uc1:MyProfileSignOn id="MyProfileSignOn_uc" runat="server" /> 
            <aside class="branding">         
            </aside>

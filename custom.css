@@ -1,0 +1,840 @@
+/* ============================================================================================ */
+/* ===                                *White*    ^_^                                         === */
+/* ============================================================================================ */
+/*
+
+	========================
+	==		CONTENTS:     ==
+    ========================
+
+	- GLOBAL STYLES
+		- body background
+		- link styles
+		- heading styles
+
+	- LAYOUT STYLES;
+	 	- site body
+	 	- page body		
+
+	- HEADER STYLES
+		- meta menu
+		- header background
+
+	- MAIN MENU STYLES
+		- menu background
+		- top level link styles
+		- drop down menu styles
+
+	
+	
+*/
+
+
+
+
+
+/* ====== GLOBAL STYLES======================================================================== */
+
+	/* ~~~~~ Body Background ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+		html{background: #D2D2D2;}
+	/* ~~~~~ Body Background ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+		#bd_home{background-color: #D2D2D2;}
+		
+		#container {
+			background-color: #BCBCBC;
+            positon:relative;
+			color:#000;
+			}
+		#bd_home{overflow:hidden;}
+
+	/* ~~~~~ Link Styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		a, a:link, a:visited { 
+			color: #000;
+			}
+
+		a:focus, a:active, a:hover { 
+			color: #000;
+			}
+
+	/* ~~~~~ Heading Styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		body #container h1{color:#000;}
+		body #container h2{color:#000;}
+		body #container h3{color:#000;}
+		body #container h4{color:#000;}
+		body #container h5{color:#000;}
+		body #container h6{color:#000;}
+	
+h2{font-size:28.5px;}  /* Fixed Master template making h2 too large */
+/* ======= end of GLOBAL STYLES ========================================================= */
+
+/* ====== CYCLE PLUG-IN STYLES  ================================================================ */
+.slideshow {margin:5px auto 10px; width:950px;}
+.slideshow img {display:none} 
+.slideshow img.first {display: block}
+
+/* ======= end CYCLE PLUG-IN STYLES ========================================================= */
+
+.frontbackstyle{width:100%;
+height:463px;
+overflow:hidden;
+position:absolute;
+border-bottom:4px solid #9D1E2A;
+background-position:center!important;
+}
+
+
+.socialMediaMain{display:block; position:relative; float:right;}
+
+/* ====== BUTTON STYLES  ================================================================ */
+
+body #container input[type=submit],
+body #container input[type=reset],
+body #container input[type=button],
+body #container button,
+body #container .btn,
+body #container .homelinks article a,
+body #container .module_propertycontact button{color:#000 !important;}
+/* Hover Buttons */
+body #container input[type=submit]:focus,
+body #container input[type=submit]:active,
+body #container input[type=submit]:hover,
+body #container input[type=reset]:focus,
+body #container input[type=reset]:active,
+body #container input[type=reset]:hover,
+body #container input[type=button]:focus,
+body #container input[type=button]:active,
+body #container input[type=button]:hover,
+body #container button:focus,
+body #container button:active,
+body #container button:hover,
+body #container .btn:focus,
+body #container .btn:active,
+body #container .btn:hover,
+body #container .homelinks article a:focus,
+body #container .homelinks article a:active,
+body #container .homelinks article a:hover,
+body #container .module_propertycontact button:focus,
+body #container .module_propertycontact button:active,
+body #container > footer > .pos .module.module_footerlinks ul li a, body #container > 
+footer > .pos .module.module_footerlinks ul li a:link, body #container > footer > 
+.pos .module.module_footerlinks ul li a:visited
+body #container .module_propertycontact button:hover{color:#000 !important;}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~ Alternate-Style Buttons ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body #container button.alt,
+body #container .btn-alt,
+body #container .module_featuredsearches article > a,
+body #container #col-center > .pos > .module.module_featuredsearches > section article,
+body #container #col-center > .pos > .module.module_featuredsearches > .content article > a{color:#000;}
+/* Hover Buttons */
+body #container button.alt:focus,
+body #container button.alt:active,
+body #container button.alt:hover,
+body #container .btn-alt:focus,
+body #container .btn-alt:active,
+body #container .btn-alt:hover,
+body #container .module_featuredsearches article > a:focus,
+body #container .module_featuredsearches article > a:active,
+body #container .module_featuredsearches article > a:hover,
+body #container #col-center > .pos > .module.module_featuredsearches > section article > a:focus,
+body #container #col-center > .pos > .module.module_featuredsearches > section article > a:active,
+body #container #col-center > .pos > .module.module_featuredsearches > section article > a:hover,
+body #container #col-center > .pos > .module.module_featuredsearches > .content article > a:focus,
+body #container #col-center > .pos > .module.module_featuredsearches > .content article > a:active,
+body #container #col-center > .pos > .module.module_featuredsearches > .content article > a:hover{color:#000;}
+div.a-i{color:#000 !important;}
+
+/* ====== end of BUTTON STYLES  ===================================================== */
+
+
+
+
+
+/* ====== LAYOUT STYLES  =========================================================== */
+
+	
+
+	/* ----- Site Body --------------------------------------------------------*/
+
+	/* Wraps everything between Header and Footer in 980px fixed width div*/
+
+		body #container > #body{color:#000; margin:0px auto 0px; overflow:hidden; }
+		body #container > #body p{font-size:14px;}
+
+	/* ----- Page Body ------------------------------------------------------------- */
+
+	/* Allows you to specifiy styles for the Main Content and Right Col for the whole site.*/
+
+	#container .module.module_templatepage {padding:1em;}
+    #container .module.module_formpage {padding:1em;}
+	#container .PH_NeighborhoodReportPlaceHolder{padding:1em;}
+
+		/* ~~~~~ Main Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container #body #col-center.col{}
+				body #container #body #col-center.col > .pos{
+					padding:.25em 1em 1em 1em;
+				}
+
+
+		/* ~~~~~ Right Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container #body #col-side-b.col{}
+				body #container #body #col-side-b.col > .pos{
+					padding: 1em;
+				}
+
+
+	
+	/* flips right column to the left column */
+		/*
+		#container #body #col-side-b {clear:left; }  
+		#container #body #col-center {float: right;}
+		*/			
+
+/* ====== end of  LAYOUT STYLES  ====================================================== */
+
+
+
+
+
+/* ====== HEADER STYLES ===================================================================== */
+
+	/* ~~~~~ Meta Menu (Home - Contact - My Home Tracker -- Log In) ~~~~~~~~~~~~~~ */
+	
+		
+		 body #container > header > .pos > #nav_head{padding-top:5px; float:right;} 
+		 body #container > header > .pos > #nav_head ul{}
+		 body #container > header > .pos > #nav_head ul li{}
+
+					/* Regular Links */
+					#nav_head ul li a,
+					#nav_head ul li a:link,
+					#nav_head ul li a:visited{color:black;}
+
+					/* Hover Links */
+					#nav_head ul li a:focus,
+					#nav_head ul li a:active,
+					#nav_head ul li a:hover{color:black;}
+
+
+	
+	/* ~~~~~ Header ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  */
+
+	/*
+		A Note on Header Backgrounds:  
+			-To set background 100% across, set background on  <header>.
+			-To set background on fixed width 980px part, set background on  header > .pos
+			- header > .pos had default height of 125px, so you may be to add height property
+	*/
+
+		 #container > header { background:url(/CustomData/150001586/images/headerback.jpg) repeat-x;}
+		 #container > header > .pos{
+		  background:url(/CustomData/150001586/images/header.png); 
+		  height:143px; 
+		  width:980px; 
+		  background-position:bottom; 
+		  background-repeat:no-repeat;
+		 }
+		 
+		/*Header Contact Info - Name, Office Information */
+			body #container > header > .pos .module.module_branding{display:none;} 
+			body #container > header > .pos .module.module_branding > section,
+			body #container > header > .pos .module.module_branding > .content{}
+			
+			
+
+/* ======= end of HEADER STYLES =============================================================== */
+
+
+
+
+
+
+/* ====== MAIN MENU STYLES ======================================================================= */
+
+	/*
+		A Note on Main Nav Backgrounds:  
+			-To set background 100% across, set background on #container > #nav_main
+			-To set background on fixed width 980px part, 
+				set background on  #container > #nav_main > .nav_main,  it WILL need !important 
+	*/
+
+		/* Top Level Nav Controls (background, etc.) */
+			body #container > #nav_main{
+			border:none; 
+			background:url(/CustomData/150001586/images/navback.jpg) #840405 repeat-x; 
+			height:40px; 
+			margin:0px auto 0px;
+			}
+			body #container > #nav_main > .nav_main{width:980px; margin:0px auto 0px;}
+			body #container > #nav_main > .nav_main > ul{}
+
+
+		/* ~~~~~ Top Level Items ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container > #nav_main > .nav_main > ul > li{}
+
+		/* Regular Links */
+			body #container > #nav_main > .nav_main > ul > li > a,
+			body #container > #nav_main > .nav_main > ul > li > a:link,
+			body #container > #nav_main > .nav_main > ul > li > a:visited,
+			body #container > #nav_main > .nav_main > ul > li.ui-menu-item > a,
+			body #container > #nav_main > .nav_main > ul > li.ui-menu-item > a:link,
+			body #container > #nav_main > .nav_main > ul > li.ui-menu-item > a:visited
+			{font-size:18px; 
+			text-align:center; 
+			margin-left:17px;
+			line-height:2;
+			color:#fff;
+			}
+
+		/* Hover Links */
+			body #container > #nav_main > #ui-active-menuitem,
+			body #container > #nav_main > .nav_main > ul > li > a:focus,
+			body #container > #nav_main > .nav_main > ul > li > a.ui-state-focus,
+			body #container > #nav_main > .nav_main > ul > li > a:active,
+			body #container > #nav_main > .nav_main > ul > li > a.ui-state-active,
+			body #container > #nav_main > .nav_main > ul > li > a:hover,
+			body #container > #nav_main > .nav_main > ul > li > a.ui-state-hover,
+			body #container > #nav_main > .nav_main > ul > li > a.ui-active-menuitem{color:#000; text-decoration:underline;}
+
+
+		/* ~~~~~ Drop Down Menus ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container > #nav_main > .nav_main > ul > li > ul{background-color:#fff;}
+			body #container > #nav_main > .nav_main > ul > li > ul > li{color:#000;}
+		/* Regular Links */
+			body #container > #nav_main > .nav_main > ul > li > ul > li > a,
+			body #container > #nav_main > .nav_main > ul > li > ul > li > a:link,
+			body #container > #nav_main > .nav_main > ul > li > ul > li > a:visited{color:#000; }
+		/* Hover Links */
+			body #container > #nav_main > .nav_main > ul > li > ul > li > a:focus,
+			body #container > #nav_main > .nav_main > ul > li > ul > li > a:active,
+			body #container > #nav_main > .nav_main > ul > li > ul > li > a:hover{color:#fff; background:#6F6F6F; }
+			
+			
+/* ======= end of MAIN MENU STYLES ============================================================= */
+
+
+
+
+
+/* ====== FOOTER STYLES ======================================================================= */
+			body #container > footer{background-color:#062C60; margin:0px auto 0px;}
+		/* ~~~~~ Footer Content Wrapper ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container > footer .foot_content{color:#fff;}
+			body #container > footer .foot_content a{color:#fff;} 
+			body #container > footer .foot_content > .pos{color:#fff; padding:1em; } 
+
+
+		/* ~~~~~ Business Card ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container > footer .foot_content .module.module_bizcard{color:#fff;}
+		/* Header */
+			body #container > footer .foot_content .module.module_bizcard > header{color:#fff;}
+		/* Title */
+			body #container > footer .foot_content .module.module_bizcard > header > *
+			body #container > footer .foot_content .module.module_bizcard > header hgroup > *, body #container > footer .foot_content .module.module_bizcard > header h3{color:#fff;}
+			body #container > footer .foot_content .module.module_bizcard > section,
+			body #container > footer .foot_content .module.module_bizcard > .content{color:#fff;}
+		/* Address */
+			body #container > footer .foot_content .module.module_bizcard > section .adr,
+			body #container > footer .foot_content .module.module_bizcard > .content .adr{color:#fff;}
+			footer .module.module_bizcard .adr span{color:#fff;}
+
+
+		/* ~~~~~ Custom Content ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container > footer .foot_content .module.module_customcontent{color:#fff;}
+		/* Header (works on default content only) */
+			body #container > footer .foot_content module.module_customcontent > header{color:#fff;}
+		/* Title (works on default content only) */
+			body #container > footer .foot_content .module.module_bizcard > header > *
+			body #container > footer .foot_content .module.module_bizcard > header hgroup > *{color:#fff;}
+		/* Content */
+			body #container > footer .foot_content .module.module_customcontent > section,
+			body #container > footer .foot_content .module.module_customcontent > .content{color:#fff;}
+		/* Custom Titles */
+			body #container > footer .foot_content .module.module_customcontent h1,
+			body #container > footer .foot_content .module.module_customcontent h2,
+			body #container > footer .foot_content .module.module_customcontent h3,
+			body #container > footer .foot_content .module.module_customcontent h4,
+			body #container > footer .foot_content .module.module_customcontent h5,
+			body #container > footer .foot_content .module.module_customcontent h6{color:#fff;}
+
+
+		/* ~~~~~ Disclaimer Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container > footer > .pos .module.module_disclaimer{color:#fff;}
+		/* Content */
+			body #container > footer > .pos .module.module_disclaimer > section,
+			body #container > footer > .pos .module.module_disclaimer > .content{color:#fff;}
+		/* Default Text */
+			body #container > footer > .pos .module.module_disclaimer small{color:#fff;}
+		/* Credit Text */
+			body #container > footer > .pos .module.module_disclaimer .credits{color:#fff;}
+		/* Copyright Text */
+			body #container > footer > .pos .module.module_disclaimer .copyright{color:#fff;}
+		/* Regular Links */
+			body #container > footer > .pos .module.module_disclaimer a,
+			body #container > footer > .pos .module.module_disclaimer a:link,
+			body #container > footer > .pos .module.module_disclaimer a:visited{color:#fff;}
+		/* Hover Links */
+			body #container > footer > .pos .module.module_disclaimer a:focus,
+			body #container > footer > .pos .module.module_disclaimer a:active,
+			body #container > footer > .pos .module.module_disclaimer a:hover{color:#fff;}
+
+
+		/* ~~~~~ Footer Link Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container > footer > .pos .module.module_footerlinks{color:#fff;}
+		/* Content */
+			body #container > footer > .pos .module.module_footerlinks > section,
+			body #container > footer > .pos .module.module_footerlinks > .content{color:#fff;}
+		/* List */
+			body #container > footer > .pos .module.module_footerlinks ul{color:#fff;}
+		/* List Items */
+			body #container > footer > .pos .module.module_footerlinks ul li{color:#fff;}
+		/* Sitemap Item */
+			body #container > footer > .pos .module.module_footerlinks .sitemap{color:#fff;}
+		/* Login Item */
+			body #container > footer > .pos .module.module_footerlinks .loginlink{color:#fff;}
+		/* Regular Links */
+			body #container > footer > .pos .module.module_footerlinks ul li a,
+			body #container > footer > .pos .module.module_footerlinks ul li a:link,
+			body #container > footer > .pos .module.module_footerlinks ul li a:visited{color:#fff;}
+		/* Hover Links */
+			body #container > footer > .pos .module.module_footerlinks ul li a:focus,
+			body #container > footer > .pos .module.module_footerlinks ul li a:active,
+			body #container > footer > .pos .module.module_footerlinks ul li a:hover{color:#fff;}
+
+/* ======= end of FOOTER STYLES ============================================================= */
+
+
+
+
+
+/* ====== GLOBAL MODULE STYLES ========================================================= */
+
+		/* ~~~~~ Begin Interior Pages, Main Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			#container #body #col-center .module{}
+		/* Header */
+			#container #body #col-center .module > header{}
+		/* Title */
+			#container #body #col-center .module > header > *,
+			#container #body #col-center .module > header hgroup > *{}
+		/* Content */
+			#container #body #col-center .module > section,
+			#container #body #col-center .module > .content{}
+		/* Footer */
+			#container #body #col-center .module > footer{}
+		/* ~~~~~ End Interior Pages, Main Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		/* ~~~~~ Begin Interior Pages, Right Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			#container #body #col-side-b .module{}
+		/* Header */
+			#container #body #col-side-b .module > header{}
+		/* Title */
+			#container #body #col-side-b .module > header > *,
+			#container #body #col-side-b .module > header hgroup > *{}
+		/* Content */
+			#container #body #col-side-b .module > section,
+			#container #body #col-side-b .module > .content{}
+		/* Footer */
+			#container #body #col-side-b .module > footer{}
+		/* ~~~~~ End Interior Pages, Right Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		 /* ~~~~~  Home Page Module Selector Reference ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	 #bd_home #container #body #col-center .module.module_featuredlisting {border:1px solid #DEDEDE; margin-top:8px; background-color:#DEDEDE;}
+
+	 #bd_home #container #body #col-center .module.module_featuredlisting section{padding:6px;}
+	 #bd_home #container #body #col-center .module.module_featuredlisting h3{padding:5px; text-align:left; font-size:18px; color:#fff !important; background: url(/CustomData/150001586/images/barbackblue.jpg) #062C60;}
+	 #bd_home #container #body #col-center .module.module_featuredsearches{border:1px solid #DEDEDE; background-color:#DEDEDE;}
+	 #bd_home #container #body #col-center .module.module_featuredsearches h3{padding:5px; text-align:left; font-size:18px; color:#fff !important; background: url(/CustomData/150001586/images/barbackblue.jpg) #062C60;}
+			#bd_home #container #body #col-center .module.module_search {}
+			#bd_home #container #body #col-center .module.module_customcontent{}
+			#bd_home #container #body #col-side-b .module.module_bizcard {}
+			#bd_home #container #body #col-side-b .module.module_propertycontact{}
+			#bd_home #container #body #col-side-b .module.module_localpropertysearch,
+		    #bd_home #container #body #col-side-b .module.module_localareasearch{}
+		    #bd_home #container #body #col-side-b .homelinks{}
+		/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		/* ~~~~~ Module Selector Reference ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			 #container #body #col-center .module.module_featuredlisting{}
+			 #container #body #col-center .module.module_featuredsearches{}
+			 #container #body #col-center .module.module_search {
+			 }
+			 #container #body #col-center .module.module_customcontent{}
+			 #container #body #col-side-b .module.module_bizcard {}
+			 #container #body #col-side-b .module.module_propertycontact{}
+			 #container #body #col-side-b .module.module_localpropertysearch,
+			 #container #body #col-side-b .module.module_localareasearch{}
+			 #container #body #col-side-b .homelinks{}
+		/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+		
+		/* ~~~~~ Begin Featured Listings Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			.module.module_featuredlisting {}
+			.module.module_featuredlisting header h3{font-size:28px; color:#000;}
+			.module.module_featuredlisting .morelistings{color:#000; text-decoration:underline;}
+
+			.module.module_featuredlisting .description,
+			.module.module_featuredlisting .courtesyof,
+			.module.module_featuredlisting .street-address,
+			.module.module_featuredlisting .locality,
+			.module.module_featuredlisting .region,
+			.module.module_featuredlisting .postal-code,
+			.module.module_featuredlisting .price,
+			.module.module_featuredlisting .type{color:#000;}
+		/* ~~~~~ End Featured Listings Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+		
+		/* ~~~~~ Begin Quick Search Module Horizontal ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+            #quicksearchtotal{position:relative; height:165px; width:880px; margin:120px auto 170px; }
+			#quicksearchbg{position:absolute; top:0px; left:0px; width:100%; height:100%; background-color:#DEDEDE; z-index:1; /* These three lines are for transparency in all browsers. */
+       -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+       filter: alpha(opacity=50);
+       opacity:.5;}
+			#quicksearchcontent{position:relative; color:#000; z-index:5;}
+			#quicksearchtotal #title{color:#000; font-style:italic; position:absolute; margin:20px; font-size:18px; font-weight:bold;}
+			#quicksearchtotal .tabs{margin-top:0px !important;}
+			#quicksearchtotal #ctl00_MainContentPlaceholder_HomePage1_mySearchMaster_uc_pnlProperties{margin-top:28px;}
+			
+			.clickHere {width:300px; margin:0px auto 0px; color:#000}
+			.clickHere div{width:243px; float:right; margin-top:11px; font-weight:bold;}
+			
+		/* Turn Module On/Off, Set background, style, border */
+			#module_Properties{width:91%; margin:0px auto 0px; background-color:none !important; border:0px dotted black !important; } 
+
+		/* Search module headings */
+			body #container #body .module.module_search > header > h2,
+			body.bd_advancedssearch #container #body .module.module_search > header > h2,
+			body#bd_openhouse #container #body #col-center .module.module_search > header > h2{}
+			.module.module_search > header{}
+			#bd_home .module.module_search section, #bd_home .module.module_search .content{float:right; width:783px;}
+
+		/* Subtitles, listing counts on search result pages */
+			body #container #body .module.module_comparehomesresults > header hgroup h3,
+			body #container #body .module.listings_compare > header hgroup h3,
+			body #container #body .module.module_listingcount > header h3{}
+			
+			body #container #body .module.module_comparehomesresults > header hgroup h4,
+			body #container #body .module.listings_compare > header hgroup h4{}
+
+		/* Button Text Color */
+			#ctl00_MainContentPlaceholder_ctl00_btnSimpleSearch{color:#000 !important;}
+			#ctl00_MainContentPlaceholder_ctl00_c_AdvSearch_advSubmitBtn{color:#000 !important;}
+			#container > #body .module.module_search > section fieldset li a.searchoptions, #container > 
+			#body .module.module_Properties > section fieldset li a.searchoptions, #container > 
+			#body .module.module_Agents > section fieldset li a.searchoptions, #container > #body .module.module_Offices > 
+			section fieldset li a.searchoptions, #container > #body .module.module_search > 
+			.content fieldset li a.searchoptions, 
+			#container > #body .module.module_Properties > .content fieldset li a.searchoptions, 
+			#container > #body .module.module_Agents > .content fieldset li a.searchoptions, 
+			#container > #body .module.module_Offices > .content fieldset li a.searchoptions{color:#000;}
+
+		/* Labels Text Color */
+			#bd_home .module.module_search label{color:#000;}
+			
+			#bd_home .module.module_search li:last-child, #bd_home .module.module_search .last{width:100px !important;}
+			
+			
+			
+			.module.module_search{background:transparent !important;}
+
+		/* ~~~~~ End Quick Search Module Horizontal ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		/* ~~~~~ Begin Quick Search Module Vertical ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			#bryansSearch #ctl00_MainContentPlaceholder_HomePage1_mySearchMaster_uc_pnlProperties {
+				float:right;
+				width:230px;
+				height:265px;
+				margin-top:-6px;
+				margin-left:-2px; 
+				text-align:center;
+				border:3px solid #000;
+				background:;
+			}
+			.module.module_search{margin-left:7px;}
+			.module.module_search h2{font-size:24px;}
+			.searchtext {width:185px !important;}
+			.searchtext label span{color:#000 !important;}
+			.minprice {width:90px !important;}
+			.minprice label span{color:#000 !important;}
+			.maxprice {width:90px !important;}
+			.maxprice label span{color:#000 !important;}
+			.beds {width:90px !important;}
+			.beds label span{color:#000 !important;}
+			.baths {width:90px !important;}
+			.baths label {color:#000 !important;}
+			.module.module_search button {margin-left:15px; width:150px;}
+			.module.module_search li .searchoptions{display:none;}
+			
+			.module.module_search{color:#000 !important;}
+
+		/* ~~~~~ End Quick Search Module Vertical ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		/* ~~~~~ Begin Local Area Search Module (Alphabet City Search) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+			body #container #body #col-side-b .module.module_localareasearch{}
+
+		/* ~~~~~ End Local Area Search Module (Alphabet City Search) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+		/* ~~~~~ Begin Home Tracker and Neighborhood Values Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+			.homelinks {}
+
+		/* ~~~~~ End Home Tracker and Neighborhood Values Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		/* ~~~~~ Begin Contact Form Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			#col-side-a > .pos > .module.module_bizcard .agentphoto, #col-side-b > .pos > .module.module_bizcard .agentphoto, #col-side-a > .pos > .module.module_bizcard .agentphoto img, #col-side-b > .pos > .module.module_bizcard .agentphoto img{max-width:77%;}
+			/* Headers in col-side-b */
+			#col-side-b .module.module_bizcard header h3{color:#fff !important;}
+			#col-side-b .module.module_bizcard header{
+			padding:4px;
+			background: url(/CustomData/150001586/images/barbackblue.jpg) #062C60 !important; 
+			font-size:16px;
+			height:auto;
+			text-align:center;
+			color:#fff !important;
+			}
+			#col-side-b > .pos > .module > header > *{padding:4px;}
+			#col-side-b .module_propertycontact header h3, #col-side-b .module_scheduleshowing header h3, #col-side-b .module_mortgage header h3{
+			margin:0px;
+			padding:6px;
+			background: url(/CustomData/150001586/images/barbackblue.jpg) #062C60 !important;
+			color:black;
+			font-size:16px;
+			height:auto;
+			text-align:center;
+			color:#fff !important;
+			text-transform:capitalize;
+			}
+			#col-side-b .module_localareasearch header h3{
+			padding:6px;
+			background: url(/CustomData/150001586/images/barbackblue.jpg) #062C60 !important;
+			color:black;
+			font-size:16px;
+			height:auto;
+			text-align:center;
+			color:#fff !important;			
+			}
+			
+			/* Background of items in col-side-b */
+			#col-side-b .module.module_bizcard {
+			border:1px solid #DEDEDE;
+			margin-bottom:25px !important; 
+			background-color:#DEDEDE;
+			} 
+			#col-side-b .module_propertycontact, #col-side-b .module_scheduleshowing, #col-side-b .module_mortgage{
+			border:1px solid #DEDEDE;
+			background-color:;
+			margin-bottom:25px !important;
+			position:relative;
+			background-color:#DEDEDE;
+			}		
+			#col-side-b .module_localareasearch{border:1px solid #DEDEDE; background-color:#DEDEDE;}
+			
+			/* Adjusts padding */
+			#col-side-a > .pos > .module > section, #col-side-b > .pos > .module > section, #col-side-a > .pos > .module > .content, #col-side-b > .pos > .module > .content{padding:.5em;}
+			#col-side-b .module.module_propertycontact section, #col-side-b .module.module_propertycontact div.content{padding:.5em;}
+
+		/* Label Text Color */
+			.module.module_propertycontact #RequestInfoSection fieldset label{color:#000;}
+
+		/* ~~~~~ End Contact Form Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		/* ~~~~~ Begin Featured Searches Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+			.module_featuredsearches {}
+
+		/* ~~~~~ End Featured Searches Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		/* ~~~~~ Unhide Titles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+		/*
+		 * These titles are hidden in the global stylesheets
+		 * For consistent titles on a default site they must be un-hidden
+		*/
+			body #container .module.module_sellersresources header,
+			body #container .module.module_buyersresources header,
+			body #container .module.module_aboutus header{ display:block; }
+		/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+		/* Neighborhood Values search options headings */
+			body#bd_neighborhoodvalues #container #body #col-center .module.module_valuesoptions section article header > h4{}
+
+/* ====== END GLOBAL MODULE STYLES ========================================================= */
+
+
+
+
+
+/* ====== LISTINGS STYLES ========================================================= */
+
+		/* ~~~~~ Begin Interior Listings ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			.ui-accordion .ui-accordion-content{background-color:white;}
+		
+		/* ~~~~~ Begin Listings Results ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		/* List View Styles */
+			#module_list .listings .pos.pos_listing .price,
+			#module_list .listings .pos.pos_listing .adr.fn,
+			#module_list .listings .pos.pos_listing .details .bedrooms,
+			#module_list .listings .pos.pos_listing .details .bathrooms,
+			#module_list .listings .pos.pos_listing .details .type,
+			#module_list .listings .pos.pos_listing .details .size,
+			#module_list .listings .pos.pos_listing .details .mls,
+			#module_list .listings .pos.pos_listing .description,
+			.listings article .status,
+			.listings article .status b,
+			#module_list .listings .pos.pos_listing .a-i{color:#000;}
+			#module_list .listings .pos.pos_listing .a-i:hover{color:#444;}
+
+
+		/* List View Styles */
+			#module_photo .listings .pos.pos_listing .price,
+			#module_photo .listings .pos.pos_listing .adr,
+			#module_photo .listings .pos.pos_listing .status b{color:#000;}
+
+		/* Map View Styles */
+		
+		/* Price */
+			body .infowindow .price{ color: #000000;  }
+		
+		/* Address */
+			body .infowindow .adr,
+			body .infowindow .street-address,
+			body .infowindow .locality,
+			body .infowindow .region,
+			body .infowindow .postal-code{ color: #000000; }
+		
+		/* Details */
+			body .infowindow .details span,
+			body .infowindow .bedrooms,
+			body .infowindow .bathrooms,
+			body .infowindow .type,
+			body .infowindow .size,
+			body .infowindow .mls,
+			body .infowindow .description,
+			body .infowindow .courtesyof,
+			body .infowindow .status{ color: #000000 !important;}
+		
+		/* Buttons */
+			body .infowindow .buttons,
+			body .infowindow .buttons a,
+			body .infowindow .buttons a .a-i{ color: #000000 !important; }
+
+		/* Results Table */
+			#module_map section .listing-mini-address.adr,
+			#module_map section .listing-mini-price .listing-mini-price-body.price.hmoney{color:#000;}
+
+		/* Listing Detail Overview */
+			.module.module_listing_detail .col-b.address.vcard .adr.fn,
+			.module.module_listing_detail .col-b.address.vcard .price,
+			#rvl_results .pos.pos_listing .price,
+			#rvl_results .pos.pos_listing .adr.fn,
+			#rvl_results .pos.pos_listing .details .bedrooms,
+			#rvl_results .pos.pos_listing .details .bathrooms,
+			#rvl_results .pos.pos_listing .details .size,
+			#rvl_results .pos.pos_listing .details .status,
+			#rvl_results .pos.pos_listing .details .mls,
+			#col-side-b .module.module_mortgage .mortgage_calculation div,
+			#col-side-b .module.module_mortgage .mortgage_calculation li label,
+			#MortgageCalculatorSection fieldset ul li label,
+			#ScheduleAShowingSection label,
+			#col-center .module.module_mortgage .mortgage_calculation div{color:#000;}
+
+		/* Neighborhood Values Results */
+			.module.module_listings.listings_compare .street-address,
+			.module.module_listings.listings_compare .locality,
+			.module.module_listings.listings_compare .region,
+			.module.module_listings.listings_compare .postal-code,
+			.module.module_listings.listings_compare .price{color:#000;}
+
+
+		/* Office Information */
+			.module.module_offices .adr.fn,
+			.module.module_offices .details{color:#000;}
+			.module.module_offices #map{height:300px;}
+
+		/* Endorsements */
+			.module_CreateEndoresements a{color:#000 !important;}
+
+
+/* ====== END LISTINGS STYLES ========================================================= */
+
+
+
+/* ====== USER CREATED STYLES ========================================================= */
+
+
+.module.module_customcontent,
+.module.module_customcontent h1,
+.module.module_customcontent h2,
+.module.module_customcontent h3{color:#000;}
+
+/* ====== END USER CREATED STYLES ========================================================= */
+
+/* BEGIN TESTIMONIALS Widget */
+#testimonials {
+width:693px;
+
+margin:0px auto 0px;;
+}
+#testimonials blockquote{
+padding:5px;
+width:692px !important;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+color:#808080;
+display:block;
+}
+ 
+#testimonials blockquote p{
+margin: 0 !important;padding: 5px!important;
+ 
+}
+#testimonials blockquote cite {
+font-style: normal;
+display: block; 
+text-transform: uppercase;
+font-weight: bold;
+font-style:italic;
+color: #555;
+padding-left:5px;
+margin-top:10px;
+}
+#testimonialsfullbox{border:1px solid #DEDEDE; margin:0px auto 20px; width:696px; background-color:#DEDEDE;}
+#nav a{margin:2px;}
+
+#testimonialsfullbox h3{padding:5px; text-align:left; font-size:18px; color:#fff !important; background: url(/CustomData/150001586/images/barbackred.jpg) #E0E0E0;}
+/* End TESTIMONIALS Widget */
+
+/* Impulse Button Bank of 4 */
+#buttonbank{width:715px; margin:21px auto 0px;}
+
+#buttonbank .buttonbackground{position:relative; background-color: #F8F8F8; 
+width:168px;
+height:150px; 
+float:left; 
+margin:3px 3px 3px 3px; 
+border:1px solid #DEDEDE;;}
+#buttonbank .buttonbackgroundlast{ position:relative; background-color: #F8F8F8; 
+width:169px;
+height:150px; 
+float:left; 
+margin:3px 3px 3px 3px; 
+border:1px solid #DEDEDE;}
+
+#buttonbank h3{background: url(/CustomData/150001586/images/barbackred.jpg) #AB0303;
+padding:5px; text-align:left; font-size:18px; color:#fff !important;}
+
+#buttonbank .buttonpara{width:160px; 
+margin: 0 auto 0; 
+padding:4px; 
+color:#000; }
+
+#buttonbank #arrow{position:absolute; bottom:0px; right:0px; margin:4px;}
+
+/* ~~~~~ QR Code ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.QRCode img{height:125px; width:125px;}
+.QRCode {float:right;}

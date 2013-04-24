@@ -100,7 +100,7 @@ body #container input[type=button],
 body #container button,
 body #container .btn,
 body #container .homelinks article a,
-body #container .module_propertycontact button{color:#000 !important;}
+body #container .module_propertycontact button{}
 /* Hover Buttons */
 body #container input[type=submit]:focus,
 body #container input[type=submit]:active,
@@ -125,7 +125,7 @@ body #container .module_propertycontact button:active,
 body #container > footer > .pos .module.module_footerlinks ul li a, body #container > 
 footer > .pos .module.module_footerlinks ul li a:link, body #container > footer > 
 .pos .module.module_footerlinks ul li a:visited
-body #container .module_propertycontact button:hover{color:#000 !important;}
+body #container .module_propertycontact button:hover{color:#fff !important;}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 
@@ -629,7 +629,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#275086', end
 			#bd_home #container #body #col-side-b .module.module_propertycontact{}
 			#bd_home #container #body #col-side-b .module.module_localpropertysearch,
 		    #bd_home #container #body #col-side-b .module.module_localareasearch{}
-		    #bd_home #container #body #col-side-b .homelinks{}
+		    #bd_home #container #body #col-side-b .homelinks{display:none;}
 		/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 		/* ~~~~~ Module Selector Reference ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -673,6 +673,84 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#275086', end
 			
 			.clickHere {width:300px; margin:0px auto 0px; color:#000}
 			.clickHere div{width:243px; float:right; margin-top:11px; font-weight:bold;}
+			.searchoptions {
+			display:none!important;}
+			
+			
+button, .btn, .homelinks article a, .module_propertycontact button, #ctl00_PageFooter1_ctl00_lnkmemberLoginButton, #container>footer .module.module_footerlinks ul li.sitemap a {
+position: relative;
+text-decoration: none;
+cursor: pointer;
+width: auto;
+height: auto;
+margin: 0px 3px 0px 0px;
+padding: 8px 8px 5px 8px;
+text-indent: 0;
+-webkit-border-radius: 0px!important;
+-moz-border-radius: 0px!important;
+border-radius: 0px!important;
+text-transform: uppercase!important;
+border-width: 0px!important;
+border-style: solid;
+color: #fff !important;
+background: #a60402;
+-webkit-box-shadow: none!important);
+-moz-box-shadow: none!important);
+box-shadow: none!important;
+white-space: nowrap;
+font-family: 'Noto Sans', sans-serif;
+	-ms-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
+}
+
+button:hover, .btn:hover, .homelinks article a:hover, .module_propertycontact button:hover {
+background:#6d0203!important;
+}
+
+fieldset.inline a.searchoptions {
+position: relative;
+text-decoration: none;
+cursor: pointer;
+width: auto;
+height: auto;
+margin: 0px 3px 0px 0px;
+padding: 8px 8px 5px 8px;
+text-indent: 0;
+-webkit-border-radius: 0px!important;
+-moz-border-radius: 0px!important;
+border-radius: 0px!important;
+
+border-color: #d6d6d6;
+border-width: 0px!important;
+border-style: solid;
+color: #fff !important;
+background: #a60402!important;
+-webkit-box-shadow: none!important);
+-moz-box-shadow: none!important);
+box-shadow: none!important;
+white-space: nowrap;
+font-family: 'Noto Sans', sans-serif;
+	-ms-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
+}
+
+fieldset.inline a.searchoptions:hover {
+background:#6d0203!important;
+}
+
+label{
+
+}
+
+.module.module_search fieldset li.submit{
+margin-top:6px!important;
+}
+
+
 			
 		/* Turn Module On/Off, Set background, style, border */
 			#module_Properties{width:91%; margin:0px auto 0px; background-color:none !important; border:0px dotted black !important; } 
